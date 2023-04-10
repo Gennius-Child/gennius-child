@@ -4,6 +4,17 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Runnig the database
+
+You can run the database into docker, execude the followinf command:
+```shell script
+cd $PATH/gennius-child/src/main/docker-compose
+```
+
+```shell script
+docker-compose -f postgres.yml up
+```
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
